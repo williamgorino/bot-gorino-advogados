@@ -1,0 +1,22 @@
+{
+  "name": "juliana-bot-gorino",
+  "version": "1.0.0",
+  "description": "Assistente virtual Juliana — Gorino Advogados",
+  "main": "server-tributario.js",
+  "scripts": {
+    "start": "node server-tributario.js",
+    "dev": "nodemon server-tributario.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "node-cache": "^5.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
